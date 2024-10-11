@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Section</title>
+    <link rel="stylesheet" href="paymentsectioncss.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <section class="hero">
+        <div class="hero-left">
+         <div class="checkout">
+            <h3>Checkout</h3> 
+         </div>
+<div class="contact">
+    <h2>Contact Details</h4>
+        <div class="email">
+            <label for="emails">Email ID</label><br>
+            <input type="text" placeholder="Jhone Doe" id="emails">
+        </div>  
+</div>
+<div class="payment-div">
+    <h2>Payment</h2>
+    <div class="payment-div-main">
+        <div class="payment-div-part">
+            <div class="card">
+                <i class='bx bx-credit-card' style='color:#ffa500'  ></i>
+                <h3>Card</h3>
+            </div>
+            <div class="coin">
+                <i class='bx bxl-bitcoin' undefined ></i>
+              <h3>Crypto</h3>
+            </div>
+            <div class="bank">
+                <i class='bx bxs-bank' ></i>
+                <h3>Bank</h3>
+            </div>
+            <div class="more">
+                <i class='bx bx-dots-vertical-rounded' ></i>
+            </div>
+        </div>
+        <div class="payment-details">
+            <label for="cardno">Card Number</label><br>
+            <input class="cardno" type="text" placeholder="Card Number"><br>
+            <div class="hhhh">
+                <label for="Expiredate">Expriy</label>
+                <label  class="cvcl" for="CVC">CVC</label><br>
+                <input class="expiredate" type="text" placeholder="MM/YY">
+                <input class="cvc" type="text" placeholder="***">
+            </div>
+            
+            <div class="kkkk">
+                <label for="Country">Country</label>
+                <label class="zipcodeee" for="zip">ZIP</label>
+            </div>
+            <!-- <div class="country"> -->
+                <select class="country" name="" id="">
+                    <option value="1">India</option>
+                    <option value="2">USA</option>
+                </select>
+            <!-- </div> -->
+            <input class="zipcode" type="text" placeholder="XXXXX">
+        </div>
+    </div>
+    
+</div>
+
+
+        </div>
+<div class="hero-right">
+<div class="center-div">
+    <h3>Order Summary</h3>
+</div>
+<div class="payment-total">
+    <div class="coupon-section">
+        <div class="couponhead">
+            <h4 >Enter Coupon Code</h4>
+        </div>
+        <br>
+        <div class="inputcoupon"> <input type="text" placeholder="COUPON CODE">
+            <button class="couponbtn">Apply Coupon</button>
+        </div>
+    </div>
+    <div class="total-section">
+        <div class="total-section-p">
+            <div class="kmm"><p>Sub Total</p></div>
+            <p class="kkk">$4700</p>
+        </div><br>
+        <div class="total-section-p">
+           <div class="kmm"> <p>Taxes</p></div>
+            <p class="kkk">$199</p>
+        </div><br>
+        <div class="total-section-p">
+           <div class="kmm">
+            <p>Discount</p>
+           </div> 
+            <p class="kkk">$0</p></div><br>
+        <div class="total-section-p">
+            <div class="kmm">
+                <h1>Total</h1>
+            </div>
+            <h1 class="kkk">$4999</h1>
+        </div><br>
+    </div>
+   </div>
+<button class="totalamountbtn">
+<p>Pay Now $4999</p>
+</button>
+<div class="payment-img">
+    <div class="payment-img-kk">
+        <img src="/secureimge.png" alt="">
+    </div>
+    <div class="payment-img-kk">
+        <img src="razorpayimg.png" alt="">
+    </div>
+    <div class="payment-img-kk">
+        <img src="securepaymentimge.png" alt="">
+    </div>
+</div>
+</div>
+    </section>
+</body>
+
+</html>

@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0; /* It's often useful to include padding reset as well */
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+.product{
+    width: 100vw;
+    height: 100vh;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+    /* background-color: aqua; */
+    padding: 0 50px; /* Add padding for spacing */
+    justify-content: space-between; /* Align items to ends */
+}
+.logo{
+margin-left: 50px
+}
+.logo p{
+    font-weight: 1000;
+    font-size: x-large;
+}
+.navsection{
+    display: flex;
+margin-left: 170px;
+    list-style-type: none;
+}
+.navsection li{
+    margin-right: 30px;
+}
+.navsection li a {
+    font-size:x-large;
+    font-weight: 900;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+.searchbar{
+    background-color: rgb(244, 241, 241);
+    height: 40px;
+    width: 50px;
+    border-radius: 5px;
+display: flex;
+margin-right: 140px;
+}
+.searchicon{
+    height: 40px;
+}
+.searchicon img{
+    margin-top: 4px;
+}
+.searchicon:hover{
+    cursor: pointer;
+    box-shadow: 10px 5px 10px rgb(244, 241, 241);;
+}
+.searchinput{
+    margin-left: 5px;
+    border-radius: 5px;
+}
+.searchinput input{
+    border:none;
+    border-radius: 5px;
+    background-color: rgb(244, 241, 241);;
+    height: 40px;
+}
+.searchinput input:focus{
+    outline: none;
+}
+.cart{
+    margin-left: 10px;
+}
+.cart:hover{
+    cursor: pointer;
+}
+.profilpic{
+    margin-top: 4px;
+    margin-right: 30px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.profilpic:hover{
+    cursor: pointer;
+}
+.navigation{
+    margin: 10px;
+    margin-left: 100px;
+    color: gray;
+    cursor: pointer;
+}
+.hero {
+    display: inline-block;
+    width: 100vw;
+    height: 55vh;
+}
+.hero-left {
+    width: 30vw;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+.product-main-img{
+    height: 350px;
+    width: 350px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-right {
+    margin-left: 30px;
+    margin-top: 10px;
+    width: 40vw;
+    display: inline-block;
+    vertical-align: top;
+}
+.hero-right a{
+    text-decoration: none;
+}
+.hero-right h1 {
+    font-size: 3vw;
+    margin-bottom: 0.3em;
+}
+
+.hero-right p {
+    font-size: 1.2vw;
+    font-weight: 800;
+    color: rgb(133, 128, 128);
+}
+.rate{
+    height: 80px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    
+}
+.price{
+    /* margin-left: 20px; */
+    margin-top: 4px;
+    height: 40px;
+    width: 110px;
+    border-radius: 5px;
+    background-color: rgb(222, 236, 252);
+}
+.price p{
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+    font-size: x-large;
+    color:blue;
+}
+.discount{
+    /* background-color: aqua; */
+    height: 40px;
+    width: 200px;
+    margin-left: 50px;
+}
+
+.discount p{
+    color: gray;
+}
+.dis-rate{
+    font-weight: 900p;
+    color: rgb(62, 172, 62);
+}
+.quntity{
+    margin-top: 10px;
+    display: flex;
+}
+.value{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    width: 45px;
+    background-color: rgb(244, 241, 241);
+    border-radius: 5px;
+}
+.value select{
+    outline: none;
+    height: 40px;
+    width: 40px;
+    background-color:  #f5f5f5;
+}
+.number-dropdown {
+    border: none;
+    outline: none; /* Removes the outline when focused */
+    padding: 5px; /* Optional padding for a better look */
+    background-color: #f0f0f0; /* Optional background color */
+    font-size: 16px;
+}
+.addcart{
+    cursor: pointer;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    width: 120px;
+    color: white;
+    margin-left: 40px;
+    border-radius: 5px;
+    font-size: large;
+    background-color: orange;
+}
+ /* Styling the gallery section */
+ .gallery {
+    padding: 20px;
+    /* background-color: #f5f5f5; */
+}
+
+/* Heading style for the gallery */
+.gallery h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+/* Scroll container styling */
+.scroll-container {
+    display: flex;
+    overflow-x: auto;
+    padding-bottom: 10px; /* Spacing for better visibility */
+    scrollbar-width: none; /* Hide scrollbar for Firefox */
+}
+
+.scroll-container::-webkit-scrollbar {
+    display: none; /* Hide scrollbar for Chrome, Safari, and Edge */
+}
+
+/* Individual image container */
+.image-wrapper {
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    flex: 0 0 auto;
+    margin-right: 10px;
+}
+
+/* Image styling */
+.image-wrapper img {
+    width: 160px; /* Adjust size as needed */
+    height: auto;
+    border-radius: 8px; /* Rounded corners for a nicer look */
+}

@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0; /* It's often useful to include padding reset as well */
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+    /* background-color: aqua; */
+    padding: 0 50px; /* Add padding for spacing */
+    justify-content: space-between; /* Align items to ends */
+}
+.logo{
+margin-left: 50px
+}
+.logo p{
+    font-weight: 1000;
+    font-size: x-large;
+}
+.navsection{
+    display: flex;
+margin-left: 170px;
+    list-style-type: none;
+}
+.navsection li{
+    margin-right: 30px;
+}
+.navsection li a {
+    font-size:x-large;
+    font-weight: 900;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+.searchbar{
+    background-color: #f5f5f5;
+    height: 40px;
+    width: 50px;
+    border-radius: 5px;
+display: flex;
+margin-right: 140px;
+}
+.searchicon{
+    height: 40px;
+}
+.searchicon img{
+    margin-top: 4px;
+}
+.searchicon:hover{
+    cursor: pointer;
+    box-shadow: 10px 5px 10px rgb(206, 202, 202);
+}
+.searchinput{
+    margin-left: 5px;
+    border-radius: 5px;
+}
+.searchinput input{
+    border:none;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+    height: 40px;
+}
+.searchinput input:focus{
+    outline: none;
+}
+.cart{
+    margin-left: 10px;
+}
+.cart:hover{
+    cursor: pointer;
+}
+.profilpic{
+    margin-top: 4px;
+    margin-right: 30px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.profilpic:hover{
+    cursor: pointer;
+}
+.hero{
+    display: inline-block;
+    width: 100vw;
+    height: 60vh;
+}
+.hero-left{
+    width: 35vw;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+.hero-right a{
+    text-decoration: none;
+}
+.hero-left h1{
+    font-size: xx-large;
+
+}
+.tablediv{
+margin-top: 100px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead th {
+    width: 100%;
+    text-align: left;
+    background-color: #f0f0f0;
+    padding: 10px;
+    font-weight: bold;
+    border: 1px solid #ddd;
+}
+
+tbody td {   
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.product-table {
+    width: 100%;
+    /* margin: auto; */
+    border-radius: 4px;
+    background-color: white;
+}
+
+.quantity-btn {
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border: 0px;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 3px;
+}
+
+.quantity-btn:hover {
+    background-color: #f0f0f0;
+}
+
+.delete-btn {
+    background-color: #fff;
+    border: none;
+    color: red;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.delete-btn:hover {
+    color: darkred;
+}
+.contuine-shoping{
+    margin-top: 160px;
+}
+.contuine-shoping:hover{
+    cursor: pointer;
+}
+.hero-right{
+    margin-left: 130px;
+    margin-top: 65px;
+    width: 40vw;
+    display: inline-block;
+    vertical-align: top;
+}
+.payment-total{
+    /* background-color: #f0f0f0; */
+    height: 300px;
+    width: 350px;
+    border-radius: 10px;
+    border: 1.5px solid #f0f0f0;
+}
+.couponhead{
+    font-size: 22px;
+    margin-top: 20px;
+    padding-left: 20px;
+}
+.inputcoupon{
+    border:none;
+    border-radius: 5px;
+    height: 40px;
+    margin-left: 20px;
+}
+.inputcoupon input{
+    border:none;
+    border-radius: 5px;
+    border: 1.5px solid #d4d3d3;
+    background-color: #f0f0f0;
+    height: 40px;
+}
+.inputcoupon input:focus{
+    outline: none;
+}
+.couponbtn{
+    margin-left: 20px;
+    background-color: blue;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    height: 40px;
+    font-size: 15px;
+    width: 120px;
+}
+.couponbtn:hover{
+    cursor: pointer;
+}
+.total-section{
+    display: inline-block;
+    width: 400px;
+    margin-left: 20px;
+    margin-top: 10px;
+    padding: 5px;
+}
+.total-section-p{
+    display: inline-block;
+}
+.kmm{
+    display: inline-block;
+    margin-bottom: 5px;
+    width: 120px;
+}
+.kkk{
+    margin-left: 100px;
+    float: right;
+}
+.total-section-p p{
+    display: inline;
+    color: grey;
+    font-size: x-large;
+}
+.total-section-p h1{
+    font-size: xx-large;
+}
+.totalamountbtn{
+    background-color: orange;
+    margin-top: 20px;
+    border-radius: 10px;
+    height: 50px;
+    width: 350px;
+    color: white;
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+.totalamountbtn:hover{
+    cursor: pointer;
+}
+.payment-img{
+    margin-top: 20px;
+    width: 350px;
+}
+.payment-img-kk{
+    display: inline;
+}

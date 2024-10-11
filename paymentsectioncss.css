@@ -1,0 +1,272 @@
+*{
+    margin: 0;
+    padding: 0; /* It's often useful to include padding reset as well */
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+.hero { 
+    display: inline-block;
+    width: 100vw;
+    height: 100vh;
+}
+.hero-left {
+    padding-left: 60px;
+    height: 100vh;
+    width: 50vw;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.checkout{
+margin-top: 30px;
+margin-left: 40px;
+font-size: x-large;
+color: #767474;
+}
+.contact{
+    margin-top: 30px;
+    margin-left: 40px;
+}
+.email{
+    margin-top: 20px;
+}
+.email label{
+    font-size: large;
+    font-weight: 700;
+}
+.email input{
+    margin-top: 10px;
+    background-color: #f0f0f0;
+    height: 40px;
+    width: 350px;
+    border: none;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+.email input:focus{
+    outline: none;
+}
+.payment-div{
+    width: 450px;
+    height: 450px;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+.payment-div h2{
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.payment-div-main{
+    border: 1.5px solid #f0f0f0;
+    width: 350px;
+    height: 350px;
+    border-radius: 5px;
+}
+.payment-div-part{
+    margin-top: 20px;
+   display: flex;
+   justify-content: space-around;
+}
+.card{
+    display: inline;
+    padding-top: 5px;
+    padding-left: 10px;
+    width: 80px;
+    height: 60px;
+    border: 2px solid orange;
+ color: orange;
+ border-radius: 5px;  
+ cursor: pointer;
+}
+.coin{
+    display: inline;
+    padding-top: 5px;
+    padding-left: 10px;
+    width: 80px;
+    height: 60px;
+    border: 1px solid rgb(177, 174, 174);
+ color: gray;
+ border-radius: 5px ;
+ cursor: pointer;
+}
+.bank{
+    display: inline;
+    padding-top: 5px;
+    padding-left: 10px;
+    width: 80px;
+    height: 60px;
+    border: 1px solid rgb(177, 174, 174);
+ color: gray;
+ border-radius: 5px ;
+ cursor: pointer;
+}
+.more{
+    cursor: pointer;
+    display: inline;
+    padding-top: 22px;
+    padding-left: 5px;
+    width: 25px;
+    height: 60px;
+    border: 1px solid rgb(177, 174, 174);
+ color: gray;
+ border-radius: 5px    ;
+}
+.payment-details{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.payment-details input:focus{
+    outline: none;
+}
+.cardno{
+    margin-top: 5px;
+    height: 35px;
+    width: 300px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    border: none;
+      padding: 10px;
+}
+.hhhh{
+    margin-top: 5px;
+}
+.cvcl{
+    float: right;
+    margin-right: 140px;
+}
+.cvc, .expiredate{
+    padding-top: 5px;
+    font-size: medium;
+    padding-left: 10px;
+    border: none;
+    height: 35px;
+    width: 148px;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+}
+.kkkk{
+    margin-top: 10px;
+}
+.zipcodeee{
+    float: right;
+    margin-right: 148px;
+}
+.country,.zipcode{
+  border-radius: 5px;
+    background-color: #f0f0f0;
+    height: 35px;
+    width: 148px;
+    border: none;
+}
+.hero-right{
+    width: 49.6vw;
+    height: 100vh;
+background-color: #f0f0f0;
+display: inline-block;
+vertical-align: top;
+}
+.center-div h3{
+    margin-top: 60px;
+    margin-left: 180px;
+    font-size: x-large;
+}
+.payment-total{
+    margin-top: 20px;
+    margin-left: 90px;
+    background-color: white;
+    height: 280px;
+    width: 350px;
+    border-radius: 10px;
+    border: 1.5px solid #f0f0f0;
+}
+.couponhead{
+    font-size: 22px;
+    margin-top: 20px;
+    padding-left: 20px;
+}
+.inputcoupon{
+    border:none;
+    border-radius: 5px;
+    height: 40px;
+    margin-left: 20px;
+}
+.inputcoupon input{
+    border:none;
+    border-radius: 5px;
+    border: 1.5px solid #d4d3d3;
+    background-color: #f0f0f0;
+    height: 40px;
+}
+.inputcoupon input:focus{
+    outline: none;
+}
+.couponbtn{
+    margin-left: 20px;
+    background-color: blue;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    height: 40px;
+    font-size: 15px;
+    width: 120px;
+}
+.couponbtn:hover{
+    cursor: pointer;
+}
+.total-section{
+    display: inline-block;
+    width: 400px;
+    margin-left: 20px;
+    margin-top: 10px;
+    padding: 20px;
+}
+.total-section-p{
+    display: inline-block;
+}
+.kmm{
+    display: inline-block;
+    margin-bottom: 5px;
+    width: 120px;
+}
+.kkk{
+    margin-left: 100px;
+    float: right;
+}
+.total-section-p p{
+    display: inline;
+    color: grey;
+    font-size: large;
+}
+.total-section-p h1{
+    font-size: x-large;
+}
+.totalamountbtn{
+    background-color: orange;
+    margin-top: 20px;
+    border-radius: 10px;
+    height: 50px;
+    width: 350px;
+    color: white;
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    margin-left: 90px;
+}
+.totalamountbtn:hover{
+    cursor: pointer;
+}
+.payment-img{
+    margin-left: 90px;
+    margin-top: 20px;
+    width: 350px;
+}
+.payment-img-kk{
+    display: inline;
+}
